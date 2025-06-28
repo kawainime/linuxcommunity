@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     id: "education",
     title: "Arch Linux",
-    description: "Full-stack education platform for SD N 1 Padangsari",
+    description: "Distribusi Linux yang berorientasi pada minimalis dan fleksibilitas, ditujukan untuk pengguna Linux berpengalaman yang ingin membangun sistem mereka sendiri dari awal.",
     technologies: ["Arch Linux", "Livewire", "Fillament","SQlite","TailwindCSS"],
     emoji: "",
     gradient: "from-blue-600 to-purple-600",
@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     id: "e-commerce",
     title: "Ubuntu",
-    description: "Full-stack E-commerce Platform for Why Coffee",
+    description: "Sistem operasi (OS) open-source berbasis Linux yang dikembangkan oleh Canonical Ltd.",
     technologies: ["Ubuntu", "TailwindCSS", "SQlite"],
     emoji: "",
     gradient: "from-green-600 to-teal-600",
@@ -22,10 +22,10 @@ export const projects: Project[] = [
   {
     id: "education",
     title: "Fedora 39",
-    description: "sistem LMS berbasis Docker dengan Django",
+    description: "Distribusi Linux Fedora yang dikembangkan oleh Fedora Project, didukung oleh komunitas pemrogram, dan disponsori oleh Red Hat.",
     technologies: ["Fedora", "Django", "Nginx","PosgreSQL"],
     emoji: "",
     gradient: "from-orange-600 to-red-600",
-    image: "/Fedora.jpeg",
+    image: "/images/Fedora.jpeg",
   },
 ]
