@@ -109,19 +109,24 @@ export function HeroSection() {
         </p>
 
         <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button
-            size="lg"
-            className="glass-strong hover:glow-medium text-white border-white/20 hover:border-white/40 transition-all duration-500 px-8 py-4 text-base font-light tracking-wide group"
-          >
-            <Download className="mr-3 h-5 w-5 transition-transform group-hover:scale-110" />
-            Join Group
-          </Button>
+          {/* --- PERUBAHAN DIMULAI DI SINI --- */}
+          <a href="https://chat.whatsapp.com/DLZ1nN8FSaBG78Yaq110Je?mode=r_c" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="glass-strong hover:glow-medium text-white border-white/20 hover:border-white/40 transition-all duration-500 px-8 py-4 text-base font-light tracking-wide group"
+            >
+              <Download className="mr-3 h-5 w-5 transition-transform group-hover:scale-110" />
+              WHATSAPP GROUP
+            </Button>
+          </a>
+          {/* --- PERUBAHAN SELESAI DI SINI --- */}
+
           <Button
             size="lg"
             variant="ghost"
             className="text-white hover:glass transition-all duration-500 px-8 py-4 text-base font-light tracking-wide group"
           >
-            Projek Kami
+            DISTRO TERBARU
             <ArrowRight className="ml-3 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
